@@ -866,14 +866,6 @@ async function StartAll() {
 		BotName = "diglibrarybot";
 	}
 
-	// Поддерживаемые форматы документов
-	const supportedTypes = [
-		"text/plain",
-		"application/pdf",
-		"application/epub+zip",
-		"application/x-fictionbook+xml",
-	];
-
 	// Основной обработчик сообщений
 	// bot.on("message", async (message) => {
 	// 	const chatId = message.chat.id;
@@ -883,6 +875,14 @@ async function StartAll() {
 	// 	if (message.document) {
 	// 		const fileId = message.document.file_id;
 	// 		const mimeType = message.document.mime_type;
+
+	// Поддерживаемые форматы документов
+	// const supportedTypes = [
+	// 	"text/plain",
+	// 	"application/pdf",
+	// 	"application/epub+zip",
+	// 	"application/x-fictionbook+xml",
+	// ];
 
 	// 		console.log(mimeType);
 
